@@ -1,0 +1,249 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aboutbackground {
+  background-image: url("image/mobile-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background-image: url("image/mobile-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  left: -100%;
+}
+
+#menu.active {
+  content: url('image/Icon\ -\ Cancel.png');
+}
+
+.menubtn {
+  padding: 0;
+  margin: 0;
+  border: none;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
+.menubtn.active {
+  position: fixed;
+  z-index: 5;
+}
+
+.header-text > h2 {
+  color: red;
+  font-size: 5vw;
+}
+
+.header-text > h1 {
+  color: red;
+  font-size: 9vw;
+  text-align: center;
+  margin-top: 0;
+}
+
+.popup > a {
+  font-size: 10vw;
+  color: black;
+  font-weight: 800;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+.popup.active {
+  padding-top: 10%;
+  left: 0%;
+  top: 0%;
+}
+
+.header-text {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-paragraph {
+  width: 95%;
+  border: solid 2px #ebebe8;
+  margin: 0 auto;
+  background-color: #fff;
+  text-align: center;
+}
+
+.header-paragraph > p {
+  text-align: center;
+  font-size: 4vw;
+  font-weight: 400;
+  color: #70706e;
+}
+
+.header-footer {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  text-align: center;
+  font-size: 4vw;
+  color: #70706e;
+}
+
+.email {
+  margin-top: 0;
+  text-align: center;
+  color: #70706e;
+}
+
+.main-program {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 2% auto;
+}
+
+.main-heading {
+  text-align: center;
+  color: #70706e;
+}
+
+.main-heading > hr {
+  width: 20%;
+  border: solid 1px #ec5242;
+}
+
+.logo {
+  height: 30vh;
+  background-image: url('image/logo-EHS.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  border: solid 2px #ec5242;
+  margin-bottom: 20%;
+}
+
+.divider {
+  margin-top: 0;
+  border: solid 1px #ddddd8;
+  width: 100%;
+}
+
+.gallery {
+  text-align: center;
+  color: #70706e;
+}
+
+.Atlanta {
+  height: 30vh;
+  background-image: url('image/Renewable\ energy\ 2020.jfif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-bottom: 20%;
+  padding: 0%;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.Atlanta > h3 {
+  font-size: 9vw;
+  opacity: 1;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.Atlanta > p {
+  font-size: 5vw;
+  opacity: 1;
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.London {
+  height: 30vh;
+  background-image: url('image/Renewable\ energy\ 2021.jfif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-bottom: 20%;
+  padding: 0%;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.London > h3 {
+  font-size: 9vw;
+  opacity: 1;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.London > p {
+  font-size: 5vw;
+  opacity: 1;
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.partner {
+  background-color: #3b3b3a;
+  padding-bottom: 10%;
+  text-align: center;
+}
+
+.partner-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.partner > h3 {
+  color: #ebebe8;
+}
+
+.partners {
+  width: 30vw;
+  margin: 1% auto;
+  color: #ebebe8;
+  font-size: 5vw;
+  text-align: center;
+}
+
+.partner > hr {
+  width: 20%;
+  border: solid 1px #ec5242;
+}
