@@ -69,7 +69,7 @@ const desktopSpeaker = [
 mobileSpeaker.forEach((mobile) => {
   const speakerCard = document.createElement('div');
   speakerCard.className = 'speaker-card';
-  speakerCard.innerHTML = `<img class="speakerimg" src="${mobile.image}" />
+  speakerCard.innerHTML = `<img class="speakerimg" src="${mobile.image}" alt ="${mobile.title}" />
 <div class="speaker-detail">
         <h3> ${mobile.title}</h3>
         <h4 >${mobile.Post}</h4>
@@ -83,7 +83,7 @@ mobileSpeaker.forEach((mobile) => {
 desktopSpeaker.forEach((item) => {
   const desktopcarddetails = document.createElement('div');
   desktopcarddetails.className = 'desktopcarddetails';
-  desktopcarddetails.innerHTML = `<img class="deskimg" src="${item.image}" />
+  desktopcarddetails.innerHTML = `<img class="deskimg" src="${item.image}" alt="${item.title}" />
 <div class="speakerdetail">
         <h3> ${item.title}</h3>
         <h4 >${item.Post}</h4>
@@ -101,12 +101,12 @@ more.addEventListener('click', () => {
   popWindow.className = 'popclass';
 
   popWindow.innerHTML = ` 
-    <button id= "remove"> <img src="image/Icon - Cancel.png"/> </button>`;
+    <button id= "remove"> <img src="image/Icon - Cancel.png"/ alt="cancel button"> </button>`;
 
   desktopSpeaker.forEach((mobile) => {
     const speakerCard = document.createElement('div');
     speakerCard.className = 'speaker-card';
-    speakerCard.innerHTML = `<img class="speakerimg" src="${mobile.image}" />
+    speakerCard.innerHTML = `<img class="speakerimg" src="${mobile.image}" alt="${mobile.title}"/>
     <div class="speaker-detail">
             <h3> ${mobile.title}</h3>
             <h4 >${mobile.Post}</h4>
