@@ -95,7 +95,7 @@ This website is designed to provide a platform for people willing to participate
 ## 🚀 Live Demo <a name="live-demo" href="https://newtayo.github.io/FIRST-CAPSTONE/index.html"></a>
 <a href="https://newtayo.github.io/FIRST-CAPSTONE/index.html">Live Demo</a>
 
- ## 🚀 Click here to see Video <a name="live-demo" href="https://www.loom.com/share/c068b8dc024e48f89c27c260c8e6333c"></a> 
+ ## 🚀 Click here to see Video <a name="live-demo" href="https://www.loom.com/share/7da39a6d80b347a0a198e92efcad9ef6"></a> 
   
 <a href="https://www.loom.com/share/c068b8dc024e48f89c27c260c8e6333c">Live Video</a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
