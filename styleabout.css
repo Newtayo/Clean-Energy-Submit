@@ -1,0 +1,546 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aboutbackground {
+  background-image: url("image/mobile-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.desktopnav {
+  display: none;
+}
+
+.desktop2nav {
+  display: none;
+}
+
+.popup {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background-image: url("image/mobile-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  left: -100%;
+}
+
+#menu.active {
+  content: url('image/Icon\ -\ Cancel.png');
+}
+
+.menubtn {
+  padding: 0;
+  margin: 0;
+  border: none;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
+.menubtn.active {
+  position: fixed;
+  z-index: 5;
+}
+
+.header-text > h2 {
+  color: red;
+  font-size: 5vw;
+}
+
+.header-text > h1 {
+  color: red;
+  font-size: 9vw;
+  text-align: center;
+  margin-top: 0;
+}
+
+.popup > a {
+  font-size: 10vw;
+  color: black;
+  font-weight: 800;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+.popup.active {
+  padding-top: 10%;
+  left: 0%;
+  top: 0%;
+}
+
+.header-text {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-paragraph {
+  width: 95%;
+  border: solid 2px #ebebe8;
+  margin: 0 auto;
+  background-color: #fff;
+  text-align: center;
+}
+
+.header-paragraph > p {
+  text-align: center;
+  font-size: 4vw;
+  font-weight: 400;
+  color: #70706e;
+}
+
+.header-footer {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  text-align: center;
+  font-size: 4vw;
+  color: #70706e;
+}
+
+.email {
+  margin-top: 0;
+  text-align: center;
+  color: #70706e;
+}
+
+.main-program {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 2% auto;
+}
+
+.main-heading {
+  text-align: center;
+  color: #70706e;
+}
+
+.main-heading > hr {
+  width: 20%;
+  border: solid 1px #ec5242;
+}
+
+.logo {
+  height: 30vh;
+  background-image: url('image/logo-EHS.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  border: solid 2px #ddddd8;
+  margin-bottom: 20%;
+}
+
+.divider {
+  margin-top: 0;
+  border: solid 1px #ddddd8;
+  width: 100%;
+}
+
+.gallery {
+  text-align: center;
+  color: #70706e;
+}
+
+.Atlanta {
+  height: 30vh;
+  background-image: url('image/Renewable\ energy\ 2020.jfif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-bottom: 20%;
+  padding: 0%;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.textdisplay {
+  background-color: rgba(249, 23, 3, 0.636);
+  position: absolute;
+  width: 80%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.textdisplay > h3 {
+  font-size: 9vw;
+  opacity: 1;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.textdisplay > p {
+  font-size: 5vw;
+  opacity: 1;
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.London {
+  height: 30vh;
+  background-image: url('image/Renewable\ energy\ 2021.jfif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-bottom: 20%;
+  padding: 0%;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.London > h3 {
+  font-size: 9vw;
+  opacity: 1;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.London > p {
+  font-size: 5vw;
+  opacity: 1;
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.partner {
+  background-color: #3b3b3a;
+  padding-bottom: 10%;
+  text-align: center;
+}
+
+.partner-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.partner > h3 {
+  color: #ebebe8;
+}
+
+.partners {
+  width: 30vw;
+  margin: 1% auto;
+  color: #ebebe8;
+  font-size: 5vw;
+  text-align: center;
+}
+
+.partner > hr {
+  width: 20%;
+  border: solid 1px #ec5242;
+}
+
+.logopatner {
+  height: 5vh;
+}
+
+.footerimg {
+  height: 7vh;
+  margin: auto 2%;
+}
+
+.ccText > p {
+  margin-top: 0%;
+  font-size: 3vw;
+  color: #6e6e6b;
+  margin-bottom: 0%;
+}
+
+.ccText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.copyrightsection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  background-color: #fff;
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .meuncomponents {
+    display: none;
+  }
+
+  .desktopnav {
+    width: 100%;
+    padding: 0.5%;
+    background-color: #272a31;
+    display: flex;
+  }
+
+  .space {
+    flex: 2;
+    margin: 0;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .socialmedia {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    margin-right: 10%;
+    justify-content: space-between;
+  }
+
+  .socialmedia > li > a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .desktop2nav {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    padding: 1%;
+  }
+
+  .space2 {
+    width: 30%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .socialmedia2 {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .socialmedia2 > li > a {
+    color: #9c9a9a;
+    text-decoration: none;
+  }
+
+  .desktoplogo {
+    height: 5vh;
+  }
+
+  #about {
+    color: #ec5242;
+  }
+
+  #Campaign {
+    border: 3px solid #ec5242;
+  }
+
+  .aboutbackground {
+    background-image: url("image/home-bg-desk.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-text {
+    width: 60%;
+    margin: 5% auto 2% auto;
+  }
+
+  .header-text > h1 {
+    font-size: 4vw;
+    font-weight: 800;
+  }
+
+  .header-text > h2 {
+    display: none;
+  }
+
+  .header-paragraph {
+    width: 80%;
+  }
+
+  .header-paragraph > p {
+    font-size: 1.5vw;
+  }
+
+  .header-footer {
+    width: 100%;
+    margin-top: 3%;
+    padding-bottom: 5%;
+  }
+
+  .header-footer > h2 {
+    padding: 0;
+    margin-top: 0;
+    margin-left: 2%;
+    margin-bottom: 0;
+    font-size: 3vw;
+    font-weight: 800;
+    color: #5c5c59;
+  }
+
+  .header-footer > p {
+    margin-top: 0;
+    font-size: 1.5vw;
+    color: #6e6e6b;
+  }
+
+  .main-heading > h3 {
+    font-size: 2vw;
+  }
+
+  .main-heading > hr {
+    font-size: 2vw;
+    width: 5%;
+  }
+
+  .main-heading > p {
+    font-size: 1.5vw;
+    width: 60%;
+    margin: 2% auto;
+  }
+
+  .logo {
+    background-image: url('image/logo-EHS.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border: solid 2px #ddddd8;
+    margin: 2% auto;
+    width: 50%;
+    padding: 5%;
+  }
+
+  .gallery > h3 {
+    font-size: 2vw;
+  }
+
+  .gallery > p {
+    font-size: 1.5vw;
+  }
+
+  .galleryimage {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .textdisplay {
+    background-color: rgba(249, 23, 3, 0.636);
+    position: absolute;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .London {
+    background-image: url('image/Renewable\ energy\ 2021.jfif');
+    width: 30vw;
+  }
+
+  .textdisplay > h3 {
+    font-size: 2vw;
+    opacity: 1;
+    color: #fff;
+    margin-bottom: 0;
+  }
+
+  .textdisplay > p {
+    font-size: 1vw;
+    opacity: 1;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .Atlanta {
+    background-image: url('image/Renewable\ energy\ 2020.jfif');
+    width: 30vw;
+  }
+
+  .logopatner {
+    padding-top: 30%;
+    height: 15vh;
+  }
+
+  .footerimg {
+    height: 10vh;
+    margin: auto 2%;
+  }
+
+  .ccText > p {
+    margin-top: 0%;
+    font-size: 1.2vw;
+    color: #6e6e6b;
+    margin-bottom: 0%;
+  }
+
+  .ccText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+  }
+
+  .copyrightsection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    background-color: #272a31;
+    margin-top: 0;
+  }
+}
