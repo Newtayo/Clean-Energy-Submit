@@ -67,7 +67,7 @@ const desktopSpeaker = [
 ];
 // Mobile Keyspeaker dynamic page
 mobileSpeaker.forEach((mobile) => {
-  const speakerCard = document.createElement('div');
+  const speakerCard = document.createElement('article');
   speakerCard.className = 'speaker-card';
   speakerCard.innerHTML = `<img class="speakerimg" src="${mobile.image}" alt ="${mobile.title}" />
 <div class="speaker-detail">
@@ -81,7 +81,7 @@ mobileSpeaker.forEach((mobile) => {
 });
 
 desktopSpeaker.forEach((item) => {
-  const desktopcarddetails = document.createElement('div');
+  const desktopcarddetails = document.createElement('article');
   desktopcarddetails.className = 'desktopcarddetails';
   desktopcarddetails.innerHTML = `<img class="deskimg" src="${item.image}" alt="${item.title}" />
 <div class="speakerdetail">

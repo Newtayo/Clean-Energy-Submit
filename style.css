@@ -575,7 +575,6 @@ body {
   .desklink {
     display: flex;
     color: white;
-    width: 20%;
     margin: 2% auto;
   }
 
@@ -702,6 +701,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2%;
   }
 
   .footer > p {
@@ -711,5 +711,24 @@ body {
 
   .main-item:hover {
     border: 2px solid #fff;
+  }
+
+  .footerimg {
+    height: 10vh;
+    margin: auto 2%;
+  }
+
+  .ccText > p {
+    margin-top: 0%;
+    font-size: 1.2vw;
+    color: #6e6e6b;
+    margin-bottom: 0%;
+  }
+
+  .ccText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
   }
 }

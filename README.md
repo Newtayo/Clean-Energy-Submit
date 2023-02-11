@@ -95,7 +95,7 @@ This website is designed to provide a platform for people willing to participate
 ## 🚀 Live Demo <a name="live-demo" href="https://newtayo.github.io/FIRST-CAPSTONE/index.html"></a>
 <a href="https://newtayo.github.io/FIRST-CAPSTONE/index.html">Live Demo</a>
 
- ## 🚀 Click here to see Video <a name="live-demo" href="https://www.loom.com/share/7da39a6d80b347a0a198e92efcad9ef6"></a> 
+ ## 🚀 Click here to see Video <a name="live-demo" href="https://www.loom.com/share/d62387d0970f469cabee6dd02fdf5528"></a> 
   
 <a href="https://www.loom.com/share/c068b8dc024e48f89c27c260c8e6333c">Live Video</a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -211,7 +211,7 @@ Feel free to check the [issues page](../../issues/).
 
 
 
-I would like to thank Microverse Team for this opportunity. I also want to acknowledge the support of my learning heldricks. Who were modified this website together. My code reviewers have also been fantastic with the feedback they have provided me with.
+I would like to thank Cindy Shin in Behance for giving me to permission to use his design for the development of this website. I also wish to appreciate microverse for this great learning platform
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
