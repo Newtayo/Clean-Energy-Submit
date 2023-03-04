@@ -92,8 +92,7 @@ This website is designed to provide a platform for people willing to participate
 
 
 
-## 🚀 Live Demo <a name="live-demo" href="https://https://newtayo.github.io/Clean-Energy-Submit">
-Live Demo</a>
+## 🚀 Live Demo <a name="live-demo" href="https://https://newtayo.github.io/Clean-Energy-Submit/">Live Demo</a>
 
  ## 🚀 Click here to see Video <a name="live-demo" href="https://www.loom.com/share/d62387d0970f469cabee6dd02fdf5528"></a> 
   
